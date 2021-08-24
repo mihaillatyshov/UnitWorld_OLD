@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{86d06b25-fbc5-4c4d-9f4b-81d6217aa886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Headers">
+      <UniqueIdentifier>{e53c0e2e-0e29-47bf-baa4-04f5926890a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source">
+      <UniqueIdentifier>{68c042fb-1f14-47d6-9e3c-3c7d2839f63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Headers\ImGui">
+      <UniqueIdentifier>{da2ccbac-d624-424b-a5e1-e795e2756705}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\ImGuiGLFWRenderer.cpp" />
+    <ClCompile Include="ImGui\ImGuiOpenGLRenderer.cpp" />
+    <ClCompile Include="Layers\ImGuiLayer.cpp" />
+    <ClCompile Include="Layers\TestBoneAnimLayer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TestBoneAnim\math_3d.cpp" />
+    <ClCompile Include="TestBoneAnim\mesh.cpp" />
+    <ClCompile Include="TestBoneAnim\AnimEvaluator.cpp" />
+    <ClCompile Include="TestBoneAnim\SceneAnimator.cpp" />
+    <ClCompile Include="Layers\TrianglesLayer.cpp" />
+    <ClCompile Include="Core\Texture.cpp" />
+    <ClCompile Include="Core\Window.cpp">
+      <Filter>src\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Shader.cpp" />
+    <ClCompile Include="Renderers\RealBatchRenderer.cpp" />
+    <ClCompile Include="Renderables\Sprite.cpp" />
+    <ClCompile Include="Renderables\Renderable.cpp" />
+    <ClCompile Include="Core\Material.cpp" />
+    <ClCompile Include="Renderers\Renderer.cpp" />
+    <ClCompile Include="UnitWorld\Chunk.cpp" />
+    <ClCompile Include="UnitWorld\SimplexNoise\SimplexNoise.cpp" />
+    <ClCompile Include="Player\Player.cpp" />
+    <ClCompile Include="Player\ThirdPersonCamera.cpp" />
+    <ClCompile Include="Player\Camera.cpp" />
+    <ClCompile Include="Renderables\AnimatedRenderable.cpp" />
+    <ClCompile Include="Renderables\Model.cpp" />
+    <ClCompile Include="Layers\RealBatchRendererLayer.cpp" />
+    <ClCompile Include="Layers\Collision2DLayer.cpp" />
+    <ClCompile Include="Physics\CollisionTest.cpp" />
+    <ClCompile Include="Physics\Circle.cpp" />
+    <ClCompile Include="Physics\AABB.cpp" />
+    <ClCompile Include="ThreadPool\ThreadPool.cpp" />
+    <ClCompile Include="Core\LayerStack.cpp" />
+    <ClCompile Include="Core\Application.cpp" />
+    <ClCompile Include="Renderers\BatchRenderer.cpp" />
+    <ClCompile Include="Buffer\VertexArray.cpp" />
+    <ClCompile Include="Buffer\VertexBuffer.cpp" />
+    <ClCompile Include="Buffer\IndexBuffer.cpp" />
+    <ClCompile Include="Layers\BatchRendererLayer.cpp" />
+    <ClCompile Include="Buffer\TextureBuffer.cpp" />
+    <ClCompile Include="Debug\ConsoleLog.cpp" />
+    <ClCompile Include="Layers\SharedLayer.cpp" />
+    <ClCompile Include="Layers\GeometryShaderLayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\ImGuiGLFWRenderer.h" />
+    <ClInclude Include="ImGui\ImGuiOpenGLRenderer.h" />
+    <ClInclude Include="Layers\ImGuiLayer.h">
+      <Filter>src\Headers\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Layers\Layer.h" />
+    <ClInclude Include="Layers\TestBoneAnimLayer.h" />
+    <ClInclude Include="GLCall.h" />
+    <ClInclude Include="TestBoneAnim\math_3d.h" />
+    <ClInclude Include="TestBoneAnim\mesh.h" />
+    <ClInclude Include="TestBoneAnim\util.h" />
+    <ClInclude Include="TestBoneAnim\ogldev_types.h" />
+    <ClInclude Include="TestBoneAnim\texture.h" />
+    <ClInclude Include="Layers\MultidimensionalLayer.h" />
+    <ClInclude Include="TestBoneAnim\AnimEvaluator.h" />
+    <ClInclude Include="TestBoneAnim\SceneAnimator.h" />
+    <ClInclude Include="Layers\TrianglesLayer.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Core\Texture.h" />
+    <ClInclude Include="Renderers\RealBatchRenderer.h" />
+    <ClInclude Include="Renderables\Renderable.h" />
+    <ClInclude Include="Core\Material.h" />
+    <ClInclude Include="Core\Window.h">
+      <Filter>src\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Shader.h" />
+    <ClInclude Include="Core\Timer.h" />
+    <ClInclude Include="Renderers\Renderer.h" />
+    <ClInclude Include="Renderables\Sprite.h" />
+    <ClInclude Include="Layers\BugTestsLayer.h" />
+    <ClInclude Include="UnitWorld\Chunk.h" />
+    <ClInclude Include="UnitWorld\SimplexNoise\SimplexNoise.h" />
+    <ClInclude Include="Renderables\Mesh.h" />
+    <ClInclude Include="UnitWorld\Unit.h" />
+    <ClInclude Include="Debug\Instrumentor.h" />
+    <ClInclude Include="Player\Player.h" />
+    <ClInclude Include="Player\ThirdPersonCamera.h" />
+    <ClInclude Include="Player\Camera.h" />
+    <ClInclude Include="Renderables\AnimatedRenderable.h" />
+    <ClInclude Include="Renderables\Model.h" />
+    <ClInclude Include="Layers\RealBatchRendererLayer.h" />
+    <ClInclude Include="Layers\Collision2DLayer.h" />
+    <ClInclude Include="Physics\AABB.h" />
+    <ClInclude Include="Physics\RigidBody.h" />
+    <ClInclude Include="Physics\Circle.h" />
+    <ClInclude Include="Physics\CollisionTest.h" />
+    <ClInclude Include="ThreadPool\ThreadPool.h" />
+    <ClInclude Include="Core\Application.h" />
+    <ClInclude Include="Core\LayerStack.h" />
+    <ClInclude Include="Renderers\BatchRenderer.h" />
+    <ClInclude Include="Layers\BatchRendererLayer.h" />
+    <ClInclude Include="Buffer\BufferLayout.h" />
+    <ClInclude Include="Core\Core.h" />
+    <ClInclude Include="Buffer\VertexBuffer.h" />
+    <ClInclude Include="Buffer\VertexArray.h" />
+    <ClInclude Include="Buffer\IndexBuffer.h" />
+    <ClInclude Include="Buffer\TextureBuffer.h" />
+    <ClInclude Include="Manager\Manager.h" />
+    <ClInclude Include="Debug\ConsoleLog.h" />
+    <ClInclude Include="Layers\SharedLayer.h" />
+    <ClInclude Include="Renderables\Transformation.h" />
+    <ClInclude Include="Layers\GeometryShaderLayer.h" />
+  </ItemGroup>
+</Project>
