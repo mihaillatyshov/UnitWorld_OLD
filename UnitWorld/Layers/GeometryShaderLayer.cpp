@@ -4,9 +4,17 @@
 #include <gtx/transform.hpp>
 
 #define BIT(x) (1 << x)
+#define BIT_TOP BIT(0)
+#define BIT_BOT BIT(1)
+#define BIT_LEFT BIT(2)
+#define BIT_RIGHT BIT(3)
+#define BIT_FRONT BIT(4)
+#define BIT_BACK BIT(5)
 
 namespace LM
 {
+
+
 
 	GeometryShaderLayer::GeometryShaderLayer()
 	{
@@ -71,6 +79,7 @@ namespace LM
 		m_VAO->Bind();
 		m_IBO->Bind();
 
+		glEnable(GL_DEPTH_TEST);
 		glEnable(GL_CULL_FACE);
 		glCullFace(GL_BACK);
 		glDrawElements(GL_POINTS, m_IBO->GetCount(), GL_UNSIGNED_INT, NULL);
@@ -107,7 +116,7 @@ namespace LM
 
 			if (ImGui::Button("Create New Point"))
 			{
-				m_Points.emplace_back(glm::vec3(0.0f, 0.0f, 0.0f), m_Points.size(), BIT(1));
+				m_Points.emplace_back(glm::vec3(0.0f, 0.0f, 0.0f), m_Points.size(), BIT_TOP);
 				m_Indices.push_back(m_Indices.size());
 			}
 			
@@ -122,7 +131,7 @@ namespace LM
 
 				ImGui::AlignTextToFramePadding();
 				ImGui::Text("Object %4d      ", i);
-				ImGui::DragFloat2("Pos", &m_Points[i].Position.x, 0.01f);
+				ImGui::DragFloat3("Pos", &m_Points[i].Position.x, 0.01f);
 				ImGui::DragInt("MID", &m_Points[i].MaterialID);
 				
 				ImGuiDrawMask(&m_Points[i]);

@@ -94,7 +94,7 @@ vec3 CalcDirLight(int mid, DirLight light, vec3 normal, vec3 viewDir)
 {
     vec3 lightDir = normalize(-light.direction);
 
-    float diff = max(dot(lightDir, normal), 0.0);
+    float diff = max(dot(lightDir, normal), 0.0f);
 
     float spec = CalcSpec(mid, normal, lightDir, viewDir);
 
