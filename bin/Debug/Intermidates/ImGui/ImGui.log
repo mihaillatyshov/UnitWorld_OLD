@@ -1,146 +1,152 @@
-﻿  ImGui.vcxproj -> I:\CPP_Team\UnitWorld\UnitWorld\bin\Debug\ImGui\ImGui.lib
+﻿cl : командная строка warning D9025: переопределение "/sdl" на "/GS-"
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_widgets.cpp
+  Создание кода...
+  ImGui.vcxproj -> I:\CPP_Team\UnitWorld\bin\Debug\ImGui\ImGui.lib
 
 Итоги по проекту:
-       71 мс вызовов   1 I:\CPP_Team\UnitWorld\UnitWorld\ImGui\ImGui.vcxproj
-                 71 мс вызовов   1 Build                                   
+     3201 мс вызовов   1 I:\CPP_Team\UnitWorld\ImGui\ImGui.vcxproj
+               3201 мс вызовов   1 Build                                   
 
 Итоги по целям:
         0 мс вызовов   1 _ResourceCompile                        
-        0 мс вызовов   1 _Manifest                               
-        0 мс вызовов   1 _ALink                                  
+        0 мс вызовов   1 ComputeLegacyManifestEmbedding          
         0 мс вызовов   1 BuildLinkTraverse                       
         0 мс вызовов   1 BuildCompile                            
         0 мс вызовов   1 _BuildCompileAction                     
         0 мс вызовов   1 AfterBuildCompileEvent                  
         0 мс вызовов   1 _Lib                                    
         0 мс вызовов   1 AfterLib                                
-        0 мс вызовов   1 PreLinkEvent                            
-        0 мс вызовов   1 ComputeLibInputsFromProject             
+        0 мс вызовов   1 MakeDirsForLib                          
+        0 мс вызовов   1 _ALink                                  
         0 мс вызовов   1 ComputeCLGeneratedLibInputs             
-        0 мс вызовов   1 ComputeRCGeneratedLibInputs             
         0 мс вызовов   1 ComputeRCOutputs                        
         0 мс вызовов   1 ComputeLibAdditionalOptions             
         0 мс вызовов   1 BeforeLib                               
         0 мс вызовов   1 AfterResourceCompile                    
+        0 мс вызовов   1 MakeDirsForResourceCompile              
         0 мс вызовов   1 BeforeResourceCompile                   
         0 мс вызовов   1 _ClCompile                              
         0 мс вызовов   1 AfterClCompile                          
-        0 мс вызовов   1 ResolvedXDCMake                         
+        0 мс вызовов   1 ComputeRCGeneratedLibInputs             
+        0 мс вызовов   1 RegisterOutput                          
         0 мс вызовов   1 ComputeCLCompileGeneratedXDCFiles       
-        0 мс вызовов   1 _XdcMake                                
-        0 мс вызовов   1 ComputeCLCompileGeneratedSbrFiles       
+        0 мс вызовов   1 MakeDirsForXdcMake                      
         0 мс вызовов   1 AfterBuild                              
         0 мс вызовов   1 BuildLink                               
         0 мс вызовов   1 _BuildLinkAction                        
         0 мс вызовов   1 PostBuildEvent                          
         0 мс вызовов   1 PrepareForRun                           
-        0 мс вызовов   1 _CheckForCompileOutputs                 
         0 мс вызовов   1 _CopySourceItemsToOutputDirectory       
+        0 мс вызовов   1 _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences
         0 мс вызовов   1 GetCopyToOutputDirectoryXamlAppDefs     
         0 мс вызовов   1 _PopulateCommonStateForGetCopyToOutputDirectoryItems
-        0 мс вызовов   1 SelectClCompile                         
         0 мс вызовов   1 _Deploy                                 
+        0 мс вызовов   1 _Appverifier                            
         0 мс вызовов   1 CreateSatelliteAssemblies               
-        0 мс вызовов   1 _GenerateSatelliteAssemblyInputs        
         0 мс вызовов   1 MakeDirsForFxc                          
         0 мс вызовов   1 PrepareResourceNames                    
         0 мс вызовов   1 CreateCustomManifestResourceNames       
-        0 мс вызовов   1 AssignTargetPaths                       
         0 мс вызовов   1 BuiltProjectOutputGroup                 
         0 мс вызовов   1 _BscMake                                
-        0 мс вызовов   1 MakeDirsForBscMake                      
-        0 мс вызовов   1 _Appverifier                            
-        0 мс вызовов   1 ComputeReferenceCLInput                 
+        0 мс вызовов   1 ComputeCLCompileGeneratedSbrFiles       
+        0 мс вызовов   1 _XdcMake                                
+        0 мс вызовов   1 SelectClCompile                         
+        0 мс вызовов   1 GetReferencedVCProjectsInfo             
         0 мс вызовов   1 Build                                   
-        0 мс вызовов   1 BeforeBuildGenerateSources              
+        0 мс вызовов   1 ComputeCLInputPDBName                   
         0 мс вызовов   1 ComputeCustomBuildOutput                
         0 мс вызовов   1 SelectCustomBuild                       
-        0 мс вызовов   1 _SelectedFiles                          
         0 мс вызовов   1 PreBuildEvent                           
-        0 мс вызовов   1 BuildGenerateSourcesTraverse            
+        0 мс вызовов   1 BeforeBuildGenerateSources              
         0 мс вызовов   1 ResolveReferences                       
-        0 мс вызовов   1 _Xsd                                    
-        0 мс вызовов   1 AfterResolveReferences                  
+        0 мс вызовов   1 FindReferenceAssembliesForReferences    
+        0 мс вызовов   1 ResolveAssemblyReferences               
+        0 мс вызовов   1 ExpandSDKReferences                     
         0 мс вызовов   1 ResolveSDKReferences                    
-        0 мс вызовов   1 _PrepareForReferenceResolution          
-        0 мс вызовов   1 _CheckWindowsSDKInstalled               
+        0 мс вызовов   1 SetCABuildNativeEnvironmentVariables    
+        0 мс вызовов   1 GetResolvedWinMD                        
         0 мс вызовов   1 GetReferenceAssemblyPaths               
         0 мс вызовов   1 PrepareProjectReferences                
         0 мс вызовов   1 _AddOutputPathToGlobalPropertiesToRemove
-        0 мс вызовов   1 ExpandSDKReferences                     
-        0 мс вызовов   1 MakeDirsForMidl                         
         0 мс вызовов   1 BeforeResolveReferences                 
-        0 мс вызовов   1 BeforeClCompile                         
-        0 мс вызовов   1 BuildGenerateSources                    
-        0 мс вызовов   1 ComputeCLInputPDBName                   
-        0 мс вызовов   1 _BuildGenerateSourcesAction             
-        0 мс вызовов   1 BuildCompileTraverse                    
-        0 мс вызовов   1 AfterBuildGenerateSourcesEvent          
-        0 мс вызовов   1 AfterBuildGenerateSources               
-        0 мс вызовов   1 FindReferenceAssembliesForReferences    
-        0 мс вызовов   1 AfterMidl                               
-        0 мс вызовов   1 _Midl                                   
-        0 мс вызовов   1 ComputeMIDLGeneratedCompileInputs       
-        0 мс вызовов   1 MakeDirsForResourceCompile              
-        0 мс вызовов   1 ResolveProjectReferences                
-        0 мс вызовов   1 ComputeCLOutputs                        
-        0 мс вызовов   1 SetCABuildNativeEnvironmentVariables    
-        0 мс вызовов   1 FinalizeBuildStatus                     
-        0 мс вызовов   1 SplitResourcesByCulture                 
-        0 мс вызовов   1 MakeDirsForCl                           
-        0 мс вызовов   1 _GetCopyToOutputDirectoryItemsFromThisProject
-        0 мс вызовов   1 AssignProjectConfiguration              
-        0 мс вызовов   1 ResolveAssemblyReferences               
-        0 мс вызовов   1 _SplitProjectReferencesByFileExistence  
-        0 мс вызовов   1 MakeDirsForXdcMake                      
-        0 мс вызовов   1 SetTelemetryEnvironmentVariables        
-        0 мс вызовов   1 GetReferencedVCProjectsInfo             
         0 мс вызовов   1 CopyFileToFolders                       
-        0 мс вызовов   1 DoLibOutputFilesMatch                   
-        0 мс вызовов   1 _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences
-        0 мс вызовов   1 ComputeLegacyManifestEmbedding          
-        0 мс вызовов   1 SetBuildDefaultEnvironmentVariables     
-        0 мс вызовов   1 MakeDirsForLib                          
-        0 мс вызовов   1 GetResolvedWinMD                        
-        0 мс вызовов   1 IncrementalClean                        
-        0 мс вызовов   1 RegisterOutput                          
+        0 мс вызовов   1 _Xsd                                    
+        0 мс вызовов   1 AfterResolveReferences                  
+        0 мс вызовов   1 _Midl                                   
+        0 мс вызовов   1 AfterBuildGenerateSourcesEvent          
+        0 мс вызовов   1 BuildCompileTraverse                    
+        0 мс вызовов   1 AfterBuildGenerateSources               
+        0 мс вызовов   1 BeforeClCompile                         
+        0 мс вызовов   1 _BuildGenerateSourcesAction             
+        0 мс вызовов   1 AfterMidl                               
+        0 мс вызовов   1 BuildGenerateSources                    
+        0 мс вызовов   1 ComputeMIDLGeneratedCompileInputs       
+        0 мс вызовов   1 _GenerateSatelliteAssemblyInputs        
+        0 мс вызовов   1 ComputeLibInputsFromProject             
+        0 мс вызовов   1 MakeDirsForMidl                         
         0 мс вызовов   1 ContentFilesProjectOutputGroup          
-        0 мс вызовов   1 SatelliteDllsProjectOutputGroup         
+        0 мс вызовов   1 _Manifest                               
+        0 мс вызовов   1 _SplitProjectReferencesByFileExistence  
+        0 мс вызовов   1 ComputeReferenceCLInput                 
+        0 мс вызовов   1 SetBuildDefaultEnvironmentVariables     
         0 мс вызовов   1 GetFrameworkPaths                       
-        0 мс вызовов   1 _PrepareForBuild                        
-        0 мс вызовов   1 _GetProjectReferenceTargetFrameworkProperties
+        0 мс вызовов   1 MakeDirsForBscMake                      
+        0 мс вызовов   1 _CheckWindowsSDKInstalled               
+        0 мс вызовов   1 _SelectedFiles                          
         0 мс вызовов   1 CopyFilesToOutputDirectory              
-        1 мс вызовов   1 CreateRecipeFile                        
+        0 мс вызовов   1 _CheckForCompileOutputs                 
+        0 мс вызовов   1 _GetCopyToOutputDirectoryItemsFromThisProject
+        0 мс вызовов   1 BuildGenerateSourcesTraverse            
+        0 мс вызовов   1 _PrepareForReferenceResolution          
+        0 мс вызовов   1 PreLinkEvent                            
+        0 мс вызовов   1 ResolvedXDCMake                         
+        1 мс вызовов   1 _PrepareForBuild                        
+        1 мс вызовов   1 DoLibOutputFilesMatch                   
+        1 мс вызовов   1 FinalizeBuildStatus                     
+        1 мс вызовов   1 _GetProjectReferenceTargetFrameworkProperties
+        1 мс вызовов   1 IncrementalClean                        
         1 мс вызовов   1 GetCopyToOutputDirectoryItems           
-        1 мс вызовов   1 _CleanGetCurrentAndPriorFileWrites      
-        1 мс вызовов   1 FixupCLCompileOptions                   
-        1 мс вызовов   1 WarnCompileDuplicatedFilename           
-        1 мс вызовов   1 _CheckForInvalidConfigurationAndPlatform
-        1 мс вызовов   1 InitializeBuildStatus                   
-        2 мс вызовов   1 CustomBuild                             
-        9 мс вызовов   1 PrepareForBuild                         
-        9 мс вызовов   1 Lib                                     
-       24 мс вызовов   1 ClCompile                               
+        1 мс вызовов   1 SatelliteDllsProjectOutputGroup         
+        2 мс вызовов   1 FixupCLCompileOptions                   
+        2 мс вызовов   1 SplitResourcesByCulture                 
+        2 мс вызовов   1 AssignTargetPaths                       
+        4 мс вызовов   1 ComputeCLOutputs                        
+        5 мс вызовов   1 MakeDirsForCl                           
+        5 мс вызовов   1 AssignProjectConfiguration              
+        7 мс вызовов   1 CustomBuild                             
+        7 мс вызовов   1 WarnCompileDuplicatedFilename           
+       13 мс вызовов   1 CreateRecipeFile                        
+       13 мс вызовов   1 PrepareForBuild                         
+       14 мс вызовов   1 SetTelemetryEnvironmentVariables        
+       15 мс вызовов   1 _CleanGetCurrentAndPriorFileWrites      
+       21 мс вызовов   1 ResolveProjectReferences                
+       26 мс вызовов   1 InitializeBuildStatus                   
+       40 мс вызовов   1 _CheckForInvalidConfigurationAndPlatform
+      287 мс вызовов   1 Lib                                     
+     2711 мс вызовов   1 ClCompile                               
 
 Итоги по задачам:
-        0 мс вызовов   2 Delete                                  
-        0 мс вызовов   5 FindUnderPath                           
-        0 мс вызовов   1 AssignProjectConfiguration              
-        0 мс вызовов   2 CreateItem                              
-        0 мс вызовов   1 AssignCulture                           
-        0 мс вызовов   1 CheckVCToolsetVersion                   
-        0 мс вызовов   7 AssignTargetPath                        
-        0 мс вызовов   2 RemoveDuplicates                        
-        0 мс вызовов   3 Message                                 
-        0 мс вызовов   2 Touch                                   
-        0 мс вызовов   1 ConvertToAbsolutePath                   
-        0 мс вызовов   2 ReadLinesFromFile                       
-        0 мс вызовов   1 WriteLinesToFile                        
         0 мс вызовов   1 MSBuild                                 
-        1 мс вызовов  10 MakeDir                                 
-        1 мс вызовов   1 GenerateDesktopDeployRecipe             
+        0 мс вызовов   2 Delete                                  
+        0 мс вызовов   1 WriteLinesToFile                        
+        1 мс вызовов   2 RemoveDuplicates                        
+        1 мс вызовов   1 ConvertToAbsolutePath                   
         1 мс вызовов   2 CallTarget                              
-        1 мс вызовов   8 SetEnv                                  
-        1 мс вызовов   3 GetOutOfDateItems                       
-        9 мс вызовов   1 LIB                                     
-       23 мс вызовов   1 CL                                      
+        1 мс вызовов   7 AssignTargetPath                        
+        1 мс вызовов   1 AssignCulture                           
+        1 мс вызовов   2 CreateItem                              
+        2 мс вызовов   1 CheckVCToolsetVersion                   
+        2 мс вызовов   8 SetEnv                                  
+        2 мс вызовов  10 MakeDir                                 
+        5 мс вызовов   1 AssignProjectConfiguration              
+        7 мс вызовов   3 GetOutOfDateItems                       
+        7 мс вызовов   2 ReadLinesFromFile                       
+        9 мс вызовов   3 Message                                 
+       12 мс вызовов   1 GenerateDesktopDeployRecipe             
+       13 мс вызовов   5 FindUnderPath                           
+       19 мс вызовов   2 Touch                                   
+      287 мс вызовов   1 LIB                                     
+     2710 мс вызовов   1 CL                                      
