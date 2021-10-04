@@ -1,6 +1,12 @@
 # Prerequisites
 *.d
 
+*.vcxproj*
+*.sln
+
+imgui.ini
+Profile-Runtime.json
+
 # Compiled Object files
 *.slo
 *.lo

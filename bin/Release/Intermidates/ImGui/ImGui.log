@@ -1,7 +1,0 @@
-﻿cl : командная строка warning D9025: переопределение "/sdl-" на "/GS-"
-cl : командная строка warning D9002: пропуск неизвестного параметра "/arch:SSE2"
-  imgui.cpp
-  imgui_demo.cpp
-  imgui_draw.cpp
-  imgui_widgets.cpp
-  ImGui.vcxproj -> C:\CPP_Team\OpenGlTests\OpenGlTests\bin\Release\ImGui\ImGui.lib

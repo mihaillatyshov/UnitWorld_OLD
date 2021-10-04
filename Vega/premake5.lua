@@ -1,5 +1,5 @@
-project "Sandbox"
-	kind "ConsoleApp"
+project "Vega"
+	kind "StaticLib"
 	language "C++"
 	cppdialect "C++17"
 	staticruntime "on"
@@ -15,11 +15,19 @@ project "Sandbox"
 		"src/**.c"
 	}
 
+	defines
+	{
+		"_CRT_SECURE_NO_WARNINGS",
+		"GLFW_INCLUDE_NONE",
+		"WIN32",
+		"GLEW_STATIC",
+		"__wglew_h__"
+		
+	}
+
 	includedirs
 	{
 		"src",
-		"%{wks.location}/Vega/src",
-		"%{IncludeDir.glm}",
 		"%{IncludeDir.glfw}",
 		"%{IncludeDir.glew}",
 		"%{IncludeDir.ImGui}",
@@ -38,8 +46,7 @@ project "Sandbox"
 		"glew",
 		"ImGui",
 		"opengl32.lib",
-		"assimp-vc141-mt",
-		"Vega"
+		"assimp-vc141-mt"
 	}
 
 	filter "system:windows"
@@ -48,7 +55,7 @@ project "Sandbox"
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
-		
+
 	filter "configurations:Release"
 		runtime "Release"
 		optimize "on"
