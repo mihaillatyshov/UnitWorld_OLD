@@ -1,0 +1,4 @@
+[submodule "Vega/vendor/imgui"]
+	path = Vega/vendor/imgui
+	url = https://github.com/mihaillatyshov/imgui.git
+	branch = docking
