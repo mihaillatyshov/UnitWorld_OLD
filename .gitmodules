@@ -5,3 +5,9 @@
 [submodule "Vega/vendor/glm"]
 	path = Vega/vendor/glm
 	url = https://github.com/g-truc/glm.git
+[submodule "Vega/vendor/glfw"]
+	path = Vega/vendor/glfw
+	url = https://github.com/mihaillatyshov/glfw.git
+[submodule "Vega/vendor/glew"]
+	path = Vega/vendor/glew
+	url = https://github.com/mihaillatyshov/glew.git
